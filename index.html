@@ -1,62 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+  </head>
+  <body>
+    <h1 id="topo"><font color="orange" face="Arial">Módulo 1 - Primeiros Passos com HTML</font></h1>
     <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+    <h2><font color="blue" face="Arial">Índice</font></h2>
+    <font size="4" face="Arial"><ul>
+      <li><a href="#historia-computadores">História dos computadores</a></li>
+      <li>
+        <a href="#clients">O que são <i>Clients</i>?</a>
+      </li>
+      <li>
+        <a href="#servers">O que são <i>Servers</i>?</a>
+      </li>
+      <li>
+        <a href="#estrutura-basica-html"
+          >Como é uma estrutura básica de um HTML?</a
+        >
+      </li>
+      <li>
+        <a href="#listas-ordenadas-e-não-ordenadas"
+          >Entendendo a diferença entre listas ordenadas e não ordenadas</a
+        >
+      </li>
+      <li><a href="#links">Links de referências</a></li>
     </ul>
+    </font>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="historia-computadores"><font color="green" face="Comic Sans MS">História dos computadores</font></h2>
+    <p><font size="4" face="Comic Sans MS">
+      <strong><u>A história dos computadores </u> </strong>é marcada por uma
+      evolução notável, desde os primórdios com dispositivos mecânicos como a
+      máquina analítica concebida por <strong>Charles Babbage</strong> no século
+      XIX, até os <i>modernos computadores quânticos</i> e
+      <i>dispositivos de inteligência artificial</i>. Durante a Segunda Guerra
+      Mundial, os primeiros computadores eletrônicos surgiram, como o ENIAC,
+      impulsionando avanços na computação. A década de 1950 viu a introdução dos
+      transistores, substituindo as válvulas, enquanto os anos 1970
+      testemunharam o surgimento dos primeiros computadores pessoais. O rápido
+      desenvolvimento da microeletrônica na década de 1980 contribuiu para a
+      popularização dos PCs, culminando na era da Internet e na <i><strong>revolução
+        digital</strong></i> que transformou radicalmente a sociedade, economia e comunicação.
+    </font></p>
+    <small><a href="#topo">Voltar</a></small>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="clients"><font color="green" face="Comic Sans MS">O que são <i>Clients</i>?</font></h2>
+    <p><font size="4" face="Comic Sans MS">
+        <strong>"Clients"</strong> geralmente se refere a usuários ou dispositivos que acessam serviços ou recursos fornecidos por um servidor em uma rede. Na computação, um cliente é uma entidade que solicita serviços ou recursos de um servidor. Isso pode incluir um navegador da web que solicita páginas de um servidor web, um cliente de email que acessa mensagens de um servidor de email, ou até mesmo um aplicativo de software que interage com um servidor para obter dados ou executar operações específicas. Em termos de arquitetura cliente-servidor, <i>>os clientes desempenham um papel crucial na obtenção e utilização de informações e funcionalidades fornecidas pelos servidores em uma rede de computadores.</i
+    </font></p>
+    <small><a href="#topo">Voltar</a></small>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="servers"><font color="green" face="Comic Sans MS">O que são <i>Servers</i>?</font></h2>
+    <p><font size="4" face="Comic Sans MS">
+        <strong><i>Servidores são computadores ou sistemas especializados projetados para fornecer serviços</i></strong>, recursos ou dados para outros dispositivos, conhecidos como clientes, em uma rede. Esses serviços podem incluir hospedagem de sites, armazenamento de arquivos, processamento de dados, gerenciamento de emails, entre outros. Os servidores são configurados para atender a solicitações dos clientes e desempenham um papel fundamental na arquitetura cliente-servidor, onde os clientes enviam pedidos e os servidores respondem, facilitando a comunicação e compartilhamento de informações em ambientes de rede. Diferentes tipos de servidores, como <i>servidores web, servidores de banco de dados e servidores de email</i>, desempenham funções específicas para atender às diversas necessidades dos usuários e organizações.
+    </font></p>
+    <small><a href="#topo">Voltar</a></small>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="estrutura-basica-html"><font color="green" face="Comic Sans MS">Como é uma estrutura básica de um HTML?</font></h2>
+    <p><font size="4" face="Comic Sans MS">
+              A estrutura básica do HTML (Hypertext Markup Language) consiste em
+      elementos essenciais que organizam o conteúdo de uma página web. <i>Todo
+        documento HTML começa com a tag </i>< html>, indicando o início do código
+      HTML, e dentro dela, há duas seções principais: < head> e < body>. A seção
+      < head> contém informações sobre o documento, como o título exibido na aba
+      do navegador, referências a folhas de estilo e scripts. Já a seção < body>
+      contém o conteúdo visível da página, como textos, imagens, links e outros
+      elementos. Cada seção é encerrada com as tags correspondentes, < head> e <
+      body>, e o documento é finalizado com a tag < /html>. Tags adicionais,
+      como < title>, < meta>, e < DOCTYPE>, são frequentemente usadas dentro da
+      seção < head> para fornecer informações adicionais ou configurar
+      propriedades do documento. <strong>Essa estrutura básica proporciona uma base
+        organizada e hierárquica para a criação de páginas web.</strong>
+    </font></p>
+    <small><a href="#topo">Voltar</a></small>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h2 id="listas-ordenadas-e-não-ordenadas"><font color="green" face="Comic Sans MS">
+      Entendendo a diferença entre listas ordenadas e não ordenadas</font>
+    </h2>
+    <p><font size="4" face="Comic Sans MS">
+              No HTML, listas não ordenadas são criadas usando a tag <i><strong>< ul></strong></i>, que envolve
+      cada item da lista, identificado pela tag < li>. Este tipo de lista é
+      adequado para itens que não têm uma ordem específica e é representado
+      visualmente com marcadores, geralmente pontos ou círculos. Por outro lado,
+      listas ordenadas são construídas com a tag <i><strong>< ol> </strong></i>, também contendo tags <
+      li> para cada item. Este tipo de lista é utilizado quando a ordem dos
+      itens é relevante, e é exibido com números, letras ou outro esquema de
+      enumeração. Ambos os tipos de listas proporcionam uma maneira semântica de
+      estruturar informações em documentos HTML, facilitando a compreensão e
+      estilização por meio de <strong>CSS (Cascading Style Sheets)</strong>.
+    </font></p>
+    <small><a href="#topo">Voltar</a></small>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+    <h3 id="links"><font color="purple" face="Arial">Links de referências</font></h3>
+    <font size="4" face="Arial">
+    <ol>
+      <li>Mozilla Developer Network (MDN) - HTML:</li>
+      <ul>
+        <li>
+          <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"
+            >MDN Web Docs - HTML</a
+          >
+        </li>
+      </ul>
 
-</body>
+      <li>W3C - World Wide Web Consortium:</li>
+      <ul>
+        <li>
+          <a href="https://www.w3.org/html/">Página inicial do HTML na W3C</a>
+        </li>
+      </ul>
+
+      <li>W3Schools - HTML Tutorial:</li>
+      <ul>
+        <li>
+          <a href="https://www.w3schools.com/html/"
+            >W3Schools - HTML Tutorial</a
+          >
+        </li>
+      </ul>
+
+      <li>HTML Living Standard (WhatWG):</li>
+      <ul>
+        <li>
+          <a href="https://html.spec.whatwg.org/multipage/"
+            >HTML Living Standard</a
+          >
+        </li>
+      </ul>
+
+      <li>HTML Reference - Sitepoint:</li>
+      <ul>
+        <li>
+          <a href="https://www.sitepoint.com/html-css/"
+            >HTML Reference - Sitepoint</a
+          >
+        </li>
+      </ul>
+    </ol>
+    </font>
+  </body>
 </html>
